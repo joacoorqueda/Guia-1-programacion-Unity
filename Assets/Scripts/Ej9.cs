@@ -12,21 +12,26 @@ public class Ej9 : MonoBehaviour
     public int p1;
     public int p2;
     public int p3;
-    
+
+    public string nombre1;
+    public string nombre2;
+    public string nombre3;
+
+
     // Start is called before the first frame update
     void Start()
     {
 
-
+         
         int total = p1 + p2 + p3;
 
-        Debug.Log("Persona 1: Capital aportado: $" + p1 + ", Porcentaje del capital: %" + ((p1 * 100) / total) + ", Monto total aportado: $" + total);
+        Debug.Log(nombre1 + ": Capital aportado: $" + p1 + ", Porcentaje del capital: %" + ((p1 * 100) / total) + ", Monto total aportado: $" + total);
 
 
-        Debug.Log("Persona 2: Capital aportado: $" + p2 + ", Porcentaje del capital: %" + ((p2 * 100) / total) + ", Monto total aportado: $" + total);
+        Debug.Log(nombre2 + ": Capital aportado: $" + p2 + ", Porcentaje del capital: %" + ((p2 * 100) / total) + ", Monto total aportado: $" + total);
 
 
-        Debug.Log("Persona 3: Capital aportado: $" + p3 + ", Porcentaje del capital: %" + ((p3 * 100) / total) + ", Monto total aportado: $" + total);
+        Debug.Log(nombre3 + ": Capital aportado: $" + p3 + ", Porcentaje del capital: %" + ((p3 * 100) / total) + ", Monto total aportado: $" + total);
 
 
 
